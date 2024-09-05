@@ -30,6 +30,22 @@
       }
     </style>
     <link rel="stylesheet" href="./css/common.css" />
+    <!-- script -->
+    <script src="./js/script.js"></script>
+    <script>
+      function internal() {
+        alert("Internal Hello Word");
+      }
+    </script>
   </head>
-  <body style="background-color: skyblue"></body>
+  <body style="background-color: skyblue">
+    브라우저에서 표시되는 구역<br />
+    <input
+      type="button"
+      onclick="alert('inline Hello Word')"
+      value="inline"
+    /><br />
+    <input type="button" onclick="internal()" value="Internal" /><br />
+    <input type="button" onclick="external()" value="external" />
+  </body>
 </html>
