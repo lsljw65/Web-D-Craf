@@ -24,13 +24,22 @@
     <title>html 기본구조</title>
     <!-- 파비콘 삽입 -->
     <link rel="shortcut icon" href="./images/favicon.png" />
+
+    <link rel="stylesheet" href="./css/common.css" />
     <style>
       body {
         background-color: beige;
       }
+      .button1 {
+        width: 200px;
+        height: 50px;
+        background-color: lightcoral;
+        font-size: 20px;
+        font-weight: 900;
+      }
     </style>
-    <link rel="stylesheet" href="./css/common.css" />
     <!-- script -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
     <script src="./js/script.js"></script>
     <script>
       function internal() {
@@ -44,8 +53,25 @@
       type="button"
       onclick="alert('inline Hello Word')"
       value="inline"
+      style="
+        width: 200px;
+        height: 50px;
+        background-color: orange;
+        font-size: 20px;
+      "
     /><br />
-    <input type="button" onclick="internal()" value="Internal" /><br />
-    <input type="button" onclick="external()" value="external" />
+    <input
+      type="button"
+      onclick="internal()"
+      value="class"
+      class="button1"
+    /><br />
+    <input type="button" onclick="external()" value="id" id="button1" /><br />
+    <button class="button1">class</button><br />
+    <!-- id의 잘못된 예시 id는 한 문서에 하나만 나와야 하는 유일한 선택자 
+     <button id="button1">클래스</button>
+    -->
+    <!-- id는 중첩된 이름을 사용하여서는 안된다. -->
+    <button id="button2">id</button>
   </body>
 </html>
