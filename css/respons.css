@@ -1,0 +1,46 @@
+body {
+  background-color: #cbc8c8;
+}
+h1 {
+  text-align: center;
+}
+.res1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 1330px;
+  margin: 10px auto;
+}
+.res2 {
+  width: 100%;
+  background-color: blue;
+}
+p {
+  background-color: blue;
+}
+
+@media screen and (min-width: 800px) {
+  .res2 {
+    background-color: purple;
+  }
+  p {
+    background-color: purple;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .res2 {
+    background-color: yellow;
+  }
+  p {
+    background-color: yellow;
+  }
+}
+
+@media screen and (min-width: 1330px) {
+  .res2 {
+    background-color: white;
+  }
+  p {
+    background-color: white;
+  }
+}
