@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript 선택자</title>
+    <!-- 파비콘 삽입 -->
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./css/gugu.css" />
+    <style>
+      /* 내부 style 작성 */
+    </style>
+
+    <script src="./js/gugu.js"></script>
+  </head>
+  <body>
+    <h2>입력한 단과 값을 이용하여 결과 출력하기</h2>
+    <div>
+      원하는 단을 입력하세요
+      <input
+        type="text"
+        placeholder="단 입력"
+        id="input_dan"
+        onchange="inputDan()"
+      />
+    </div>
+    <div>
+      <b id="dan">단</b> X
+      <input
+        type="text"
+        placeholder="값 입력"
+        id="danvalue2"
+        onchange="value_F()"
+      />
+      =
+      <strong id="result2">결과값</strong>
+      <input
+        type="button"
+        id="rbt"
+        value="결과값 보기"
+        onclick="resultCul2()"
+      />
+    </div>
+  </body>
+</html>
