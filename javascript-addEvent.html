@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript 선택자</title>
+    <!-- 파비콘 삽입 -->
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./css/addEvent.css" />
+    <style>
+      /* 내부 style 작성 */
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>이벤트 핸들러와 AddEventListener</h1>
+      <div>
+        <button id="back" onclick="background()">
+          버튼을 누르면 배경 색상이 변경됩니다.
+        </button>
+        <select id="select-back">
+          <option value="beige">색상을 선택하세요</option>
+          <option value="IndianRed">IndianRed"</option>
+          <option value="HotPink">HotPink</option>
+          <option value="Tomato">Tomato</option>
+        </select>
+        <button class="plus-minus">폰트 size 변경</button>
+      </div>
+      <p>텍스트는 <span id="size">16</span>px입니다.</p>
+      <button class="mouse">마우스를 올려보세요!</button>
+    </main>
+    <script src="./js/addEvent.js"></script>
+  </body>
+</html>
