@@ -2,3 +2,19 @@
 body {
   background-color: lightcyan;
 }
+/* 선태자에는 기본 3가지 종류가 있습니다.
+태그 선택자, 클래스선택자, 아이디선택자
+*/
+#button1 {
+  width: 200px;
+  height: 50px;
+  background-color: lightgreen;
+  font-size: 20px;
+  color: white;
+}
+#button2 {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  font-size: 30px;
+}
