@@ -1,0 +1,31 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+}
+b {
+  display: inline-block;
+  width: 며새;
+  height: 40x;
+  padding: 10px;
+}
+#danvalue,
+#danvalue2 {
+  width: 50px;
+}
+strong {
+  display: inline-block;
+  width: 80px;
+  height: 40x;
+  padding: 10px;
+  background-color: skyblue;
+  border: 2px solid black;
+  vertical-align: middle;
+}
+div {
+  margin: 10px 0;
+}
+#input_dan {
+  width: 50px;
+  border: none;
+  border-bottom: 2px solid red;
+}
