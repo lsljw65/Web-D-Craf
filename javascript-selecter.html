@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript 선택자</title>
+    <!-- 파비콘 삽입 -->
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./css/script.css" />
+    <style>
+      /* 내부 style 작성 */
+    </style>
+
+    <script src="./js/script-selector.js"></script>
+  </head>
+  <body>
+    <h1>Javascipt Output and select</h1>
+    <h2>Javascript selector</h2>
+    <p id="selector-id">#id선택자</p>
+    <p class="selector-class">.class선택자</p>
+    <p class="selector-class">.class선택자 2</p>
+    <div>태그 선택자</div>
+    <button type="button" onclick="idSelector()">
+      #id선택자에 내용 내보내고 배경색상 변경하기
+    </button>
+    <button type="button" onclick="classSelector()">
+      .class선택자에 내용 내보내고 배경색상 변경하기
+    </button>
+    <button type="button" onclick="tag_name()">
+      태그선택자에 내용 내보내고 배경색상 변경하기
+    </button>
+    <button type="button" onclick="query_selector()">
+      지정 선택자에 내용 내보내고 배경색상 변경하기
+    </button>
+  </body>
+</html>
